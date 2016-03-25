@@ -3,18 +3,25 @@
 #include <vector>
 
 using namespace std;
+/*
+int Comb(int m, int n)
+{
+    if(1 == n)
+    {
+        return m;
+    }
+    else if(m == n)
+    {
+        return 1;
+    }
+
+    return Comb(m-1, n)+Comb(m-1, n-1);
+}
+*/
 
 int main()
 {
-    vector<string> veStr;
-
-    veStr.push_back("hello");
-    veStr.push_back("world!");
-
-    veStr.erase(veStr.begin()+1);
-
-    cout<<veStr[0]<<endl;
-    cout<<veStr.size()<<endl;
-
-    return 0;
+    string str="bafahfia";
+    cout <<std::sort()<<endl;
+   return 0;
 }
